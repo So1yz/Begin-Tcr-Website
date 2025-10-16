@@ -13,6 +13,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+   position: relative;      
+  min-height: 100vh; 
 }
 
 h1, p {
@@ -85,3 +87,17 @@ nav img {
   font-size: 1.8rem;
   line-height: 1.6;
 }
+
+
+footer {
+  position: absolute;      
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;      
+  padding: 1.5rem 0;       
+  font-size: 1.4rem;
+
+}
+
+
